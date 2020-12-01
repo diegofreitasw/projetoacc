@@ -1,0 +1,183 @@
+CRITICAL - 2020-11-10 19:04:30 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:04:30 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:41 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:41 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:42 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:43 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:43 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:43 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:43 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:07:44 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:07:44 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:09:16 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\projetoaccnew\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('categorias')
+#1 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(793): CodeIgniter\Router\Router->handle('categorias')
+#2 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-10 19:09:16 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ParseError), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ParseError))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-10 19:33:14 --> Undefined index: idcategoria
+#0 C:\xampp\htdocs\projetoaccnew\app\Views\categorias\index.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoaccnew\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoaccnew\app\Controllers\Categorias.php(24): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(918): App\Controllers\Categorias->index()
+#5 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 C:\xampp\htdocs\projetoaccnew\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoaccnew\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoaccnew\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-10 19:33:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoaccnew\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

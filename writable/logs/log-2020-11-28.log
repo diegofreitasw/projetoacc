@@ -1,0 +1,787 @@
+CRITICAL - 2020-11-28 10:44:53 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(27): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:44:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:53:00 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:53:00 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:54:31 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:54:31 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:52 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:52 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:55:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:56:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:57:22 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:57:22 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:08 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:08 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:58:54 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:58:55 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 10:59:12 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 10:59:12 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:24 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:24 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:25 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:25 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:25 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:25 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:52 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:00:53 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:00:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:01:31 --> Undefined index: curso_idcurso
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:01:31 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:01:42 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:01:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Undefined variable: pager
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 81, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(33): view('comprovantes/in...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-28 11:01:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-28 11:02:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,70 @@
+CRITICAL - 2020-12-01 20:34:36 --> Undefined property: App\Controllers\Categorias::$CategoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:36:38 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:37:39 --> Undefined property: App\Controllers\Usuarios::$usuarioModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Usuarios.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Usuarios->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:39:01 --> Undefined property: App\Controllers\Usuarios::$usuarioModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Usuarios.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Usuarios->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:42:23 --> Undefined property: App\Controllers\Usuarios::$usuarioModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Usuarios.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Usuarios->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:42:39 --> Object of class App\Models\CategoriaModel could not be converted to string
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-01 20:43:19 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-01 20:43:28 --> Object of class App\Models\CategoriaModel could not be converted to string
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-01 20:44:10 --> Undefined property: App\Controllers\Usuarios::$usuarioModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Usuarios.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Usuarios->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

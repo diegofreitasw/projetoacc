@@ -1,0 +1,2124 @@
+CRITICAL - 2020-11-23 05:14:04 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:45 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:45 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:46 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:47 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:47 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:14:48 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Home.php(7): view('home/index')
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 05:14:48 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:15:30 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:16:29 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:16:44 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:55 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:56 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:56 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:56 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:56 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:17:58 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:18:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:05 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:05 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:05 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:05 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:05 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:34 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:35 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:36 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:20:38 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:22 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:23:27 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:37 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:44 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:45 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:45 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:45 --> Uncaught ErrorException: include(): Filename cannot be empty in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): File...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:24:55 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:30:41 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:22 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:26 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:40 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:41 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:31:44 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(34): view('categorias/form')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 05:31:44 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:33:03 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(34): view('categorias/form')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 05:33:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:33:06 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\form.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(34): view('categorias/form')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 05:33:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:37:50 --> Undefined variable: titulo
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\form.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(34): view('categorias/form')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 05:37:50 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:50:18 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 05:50:59 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:02:45 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:17:25 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:17:27 --> Call to undefined function checkLinkPermission()
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(39): view('categorias/form', Array)
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 06:17:27 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:17:31 --> Call to undefined function checkLinkPermission()
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(39): view('categorias/form', Array)
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 06:17:31 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:17:36 --> Call to undefined function checkLinkPermission()
+#0 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/form', Array, true)
+#2 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(39): view('categorias/form', Array)
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->create()
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-11-23 06:17:36 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:18:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 06:18:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:34:18 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:34:18 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:34:24 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:34:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:35:24 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:35:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:35:40 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:35:40 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:36:26 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:36:26 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:52:55 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:52:55 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:56:57 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:56:57 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 09:57:02 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 09:57:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:02:41 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:02:41 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:02:45 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:02:45 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:03:10 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:03:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:03:20 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:03:20 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:10:10 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:10:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:10:13 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:10:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:10:40 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:10:40 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:10:43 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:10:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 10:34:49 --> Undefined property: App\Controllers\Categorias::$categoriaModel
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->store()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 10:34:49 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 19:47:04 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projetoacc\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projetoacc\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\projetoacc\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\projetoacc\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(13): CodeIgniter\Model->paginate(5)
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->index()
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#7 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-11-23 19:47:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 19:47:32 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\projetoacc\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\projetoacc\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\projetoacc\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\projetoacc\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\projetoacc\app\Controllers\Categorias.php(13): CodeIgniter\Model->paginate(5)
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Categorias->index()
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#7 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-11-23 19:47:32 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 19:48:53 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(7): view('comprovantes/in...')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 19:48:53 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 19:48:59 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(7): view('comprovantes/in...')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 19:48:59 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 19:56:11 --> Undefined variable: comprovantes
+#0 C:\xampp\htdocs\projetoacc\app\Views\comprovantes\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('comprovantes/in...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(7): view('comprovantes/in...')
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 19:56:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:02 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:02 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:03 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Class 'App\Models\ComprovantesModel' not found
+#0 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-23 20:35:04 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:06 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:06 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:13 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:13 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:42 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:42 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:36:43 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:21 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:21 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:22 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:22 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:22 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:22 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:23 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:23 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:23 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:24 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:24 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:55 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:55 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:37:57 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:37:57 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:38:14 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:38:15 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:38:15 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:09 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:09 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:10 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:10 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:10 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:11 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:12 --> Undefined variable: categorias
+#0 C:\xampp\htdocs\projetoacc\app\Views\categorias\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projetoacc\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projetoacc\system\Common.php(1119): CodeIgniter\View\View->render('categorias/inde...', Array, true)
+#3 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(28): view('categorias/inde...', Array)
+#4 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#5 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#6 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-23 20:39:12 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:39:41 --> Undefined variable: comprovantes
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 20:39:41 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:40:40 --> Undefined variable: comprovantes
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 20:40:40 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-23 20:40:42 --> Undefined variable: comprovantes
+#0 C:\xampp\htdocs\projetoacc\app\Controllers\Comprovantes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(918): App\Controllers\Comprovantes->index()
+#2 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Comprovantes))
+#3 C:\xampp\htdocs\projetoacc\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projetoacc\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projetoacc\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-23 20:40:42 --> Uncaught ErrorException: Undefined variable: viewFile in C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php:308
+Stack trace:
+#0 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 308, Array)
+#1 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(308): include()
+#2 C:\xampp\htdocs\projetoacc\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#4 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
